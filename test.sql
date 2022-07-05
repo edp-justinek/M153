@@ -9,11 +9,12 @@ ON Persons (LastName, FirstName);
 
 DROP INDEX table_name.index_name;
 
-
-
-
 CREATE INDEX idx_bike
 ON Bike (Bez);
 
 
 DROP INDEX Bike.idx_bike;
+
+---------------------------------------
+
+WHERE City LIKE 's%';
